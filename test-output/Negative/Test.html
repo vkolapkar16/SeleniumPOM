@@ -1,0 +1,328 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 06 16:36:11 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>698 seconds (698688 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.A.Xuriti.SignUp.Tc_03_SignUp_InvalidMobileNo.signUpInvalidNo()'><b>signUpInvalidNo</b><br>Test class: com.A.Xuriti.SignUp.Tc_03_SignUp_InvalidMobileNo</td>
+<td></td>
+<td>4</td>
+<td>com.A.Xuriti.SignUp.Tc_03_SignUp_InvalidMobileNo@6200f9cb</td></tr>
+<tr>
+<td title='com.D.Xuriti.InvoiceUpload.TC_3_InvoiceUpload_UnknownCompany.invoiceUpload_invalidBuyerGstNo()'><b>invoiceUpload_invalidBuyerGstNo</b><br>Test class: com.D.Xuriti.InvoiceUpload.TC_3_InvoiceUpload_UnknownCompany<br/>
+<a href="#Output-1209981276" onClick='toggleBox("Output-1209981276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209981276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209981276">
+T<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.D.Xuriti.InvoiceUpload.TC_3_InvoiceUpload_UnknownCompany@4009e306</td></tr>
+<tr>
+<td title='com.D.Xuriti.InvoiceUpload.TC_2_InvoiceUpload_HoldCompany.invoiceUploadInvalidBuyerGSTNo()'><b>invoiceUploadInvalidBuyerGSTNo</b><br>Test class: com.D.Xuriti.InvoiceUpload.TC_2_InvoiceUpload_HoldCompany<br/>
+<a href="#Output-384438050" onClick='toggleBox("Output-384438050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384438050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384438050">
+T<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.D.Xuriti.InvoiceUpload.TC_2_InvoiceUpload_HoldCompany@7dc0f706</td></tr>
+<tr>
+<td title='com.F.Xuriti.NBFC.TC_02_NBFC_EditFields.nbfcField_change()'><b>nbfcField_change</b><br>Test class: com.F.Xuriti.NBFC.TC_02_NBFC_EditFields</td>
+<td></td>
+<td>123</td>
+<td>com.F.Xuriti.NBFC.TC_02_NBFC_EditFields@587e5365</td></tr>
+<tr>
+<td title='com.F.Xuriti.NBFC.TC_03_NBFC_CompanyPending.nbfcStatus_Pending()'><b>nbfcStatus_Pending</b><br>Test class: com.F.Xuriti.NBFC.TC_03_NBFC_CompanyPending<br/>
+<a href="#Output-1321128627" onClick='toggleBox("Output-1321128627", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1321128627" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1321128627">
+Please fill all the details<br/>
+Retailer is not approved please contact Xuriti team<br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>com.F.Xuriti.NBFC.TC_03_NBFC_CompanyPending@22fcf7ab</td></tr>
+<tr>
+<td title='com.B.Xuriti.LogIn.Tc_01_Login_DataProvider.login_userPanel()'><b>login_userPanel</b><br>Test class: com.B.Xuriti.LogIn.Tc_01_Login_DataProvider<br>Parameters: vk, vk1, Invalid</td>
+<td></td>
+<td>8</td>
+<td>com.B.Xuriti.LogIn.Tc_01_Login_DataProvider@69453e37</td></tr>
+<tr>
+<td title='com.F.Xuriti.NBFC.TC_08_NBFC_UpdateCreditLimit.updateNBFCCreditLimit()'><b>updateNBFCCreditLimit</b><br>Test class: com.F.Xuriti.NBFC.TC_08_NBFC_UpdateCreditLimit<br/>
+<a href="#Output-2047820764" onClick='toggleBox("Output-2047820764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2047820764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2047820764">
+Credit limit must be greater than credit utilized<br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>com.F.Xuriti.NBFC.TC_08_NBFC_UpdateCreditLimit@63475ace</td></tr>
+<tr>
+<td title='com.C.Xuriti.AddCompany.TC_01_AddCompany.Addduplicatecompany()'><b>Addduplicatecompany</b><br>Test class: com.C.Xuriti.AddCompany.TC_01_AddCompany<br/>
+<a href="#Output-1366677933" onClick='toggleBox("Output-1366677933", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1366677933" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1366677933">
+Message Found : GST already registered with another user<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.C.Xuriti.AddCompany.TC_01_AddCompany@ae13544</td></tr>
+<tr>
+<td title='com.C.Xuriti.AddCompany.TC_01_AddCompany.BlankGstNo()'><b>BlankGstNo</b><br>Test class: com.C.Xuriti.AddCompany.TC_01_AddCompany<br/>
+<a href="#Output-1191430552" onClick='toggleBox("Output-1191430552", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1191430552" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1191430552">
+Message Found : Please enter correct GST number<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.C.Xuriti.AddCompany.TC_01_AddCompany@ae13544</td></tr>
+<tr>
+<td title='com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator.invoiceCreateunknown()'><b>invoiceCreateunknown</b><br>Test class: com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator</td>
+<td></td>
+<td>4</td>
+<td>com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator@f5958c9</td></tr>
+<tr>
+<td title='com.B.Xuriti.LogIn.Tc_01_Login_DataProvider.login_userPanel()'><b>login_userPanel</b><br>Test class: com.B.Xuriti.LogIn.Tc_01_Login_DataProvider<br>Parameters: vk@gmail.com, vk3, Invalid</td>
+<td></td>
+<td>8</td>
+<td>com.B.Xuriti.LogIn.Tc_01_Login_DataProvider@69453e37</td></tr>
+<tr>
+<td title='com.B.Xuriti.LogIn.Tc_01_Login_DataProvider.login_userPanel()'><b>login_userPanel</b><br>Test class: com.B.Xuriti.LogIn.Tc_01_Login_DataProvider<br>Parameters: vk@gmail.com, vk, Invalid</td>
+<td></td>
+<td>9</td>
+<td>com.B.Xuriti.LogIn.Tc_01_Login_DataProvider@69453e37</td></tr>
+<tr>
+<td title='com.A.Xuriti.SignUp.Tc_04_SignUp_InvalidOTP.signUpInvalidOTP()'><b>signUpInvalidOTP</b><br>Test class: com.A.Xuriti.SignUp.Tc_04_SignUp_InvalidOTP<br/>
+<a href="#Output-1869544015" onClick='toggleBox("Output-1869544015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869544015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869544015">
+Error Message Found Invalid OTP, please try again later<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.A.Xuriti.SignUp.Tc_04_SignUp_InvalidOTP@2002fc1d</td></tr>
+<tr>
+<td title='com.D.Xuriti.InvoiceUpload.TC_1_InvoiceUpload_MultipleInvoices.invoiceUploadValidation()'><b>invoiceUploadValidation</b><br>Test class: com.D.Xuriti.InvoiceUpload.TC_1_InvoiceUpload_MultipleInvoices<br/>
+<a href="#Output-1012975233" onClick='toggleBox("Output-1012975233", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1012975233" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1012975233">
+T<br/>
+T<br/>
+T<br/>
+T<br/>
+T<br/>
+</div>
+</td>
+<td></td>
+<td>24</td>
+<td>com.D.Xuriti.InvoiceUpload.TC_1_InvoiceUpload_MultipleInvoices@3d34d211</td></tr>
+<tr>
+<td title='com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator.invoiceCreateHold()'><b>invoiceCreateHold</b><br>Test class: com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator</td>
+<td></td>
+<td>4</td>
+<td>com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator@f5958c9</td></tr>
+<tr>
+<td title='com.B.Xuriti.LogIn.Tc_02_Login_CheckError.loginWithInvalidMail()'><b>loginWithInvalidMail</b><br>Test class: com.B.Xuriti.LogIn.Tc_02_Login_CheckError<br/>
+<a href="#Output-2062184524" onClick='toggleBox("Output-2062184524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2062184524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2062184524">
+Error Message Found = Please provide a valid email address<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.B.Xuriti.LogIn.Tc_02_Login_CheckError@6f4a47c7</td></tr>
+<tr>
+<td title='com.C.Xuriti.AddCompany.TC_01_AddCompany.unchekedTermsandConditions()'><b>unchekedTermsandConditions</b><br>Test class: com.C.Xuriti.AddCompany.TC_01_AddCompany</td>
+<td></td>
+<td>51</td>
+<td>com.C.Xuriti.AddCompany.TC_01_AddCompany@ae13544</td></tr>
+<tr>
+<td title='com.B.Xuriti.LogIn.Tc_02_Login_CheckError.loginWithUknownUser()'><b>loginWithUknownUser</b><br>Test class: com.B.Xuriti.LogIn.Tc_02_Login_CheckError<br/>
+<a href="#Output-942502343" onClick='toggleBox("Output-942502343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-942502343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-942502343">
+Error Message Found = You have entered an invalid username or password.<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.B.Xuriti.LogIn.Tc_02_Login_CheckError@6f4a47c7</td></tr>
+<tr>
+<td title='com.F.Xuriti.NBFC.TC_01_NBFC_Statuscheck.nbfcStatusCheck()'><b>nbfcStatusCheck</b><br>Test class: com.F.Xuriti.NBFC.TC_01_NBFC_Statuscheck<br/>
+<a href="#Output-1018271197" onClick='toggleBox("Output-1018271197", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1018271197" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1018271197">
+Active<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>com.F.Xuriti.NBFC.TC_01_NBFC_Statuscheck@43c1b556</td></tr>
+<tr>
+<td title='com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator.invoiceCreateMultiple()'><b>invoiceCreateMultiple</b><br>Test class: com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator</td>
+<td></td>
+<td>4</td>
+<td>com.D.Xuriti.InvoiceUpload.TC_00_InvoiceGenerator@f5958c9</td></tr>
+<tr>
+<td title='com.F.Xuriti.NBFC.TC_06_NBFC_REMAP.NbfcAlreadyMapped()'><b>NbfcAlreadyMapped</b><br>Test class: com.F.Xuriti.NBFC.TC_06_NBFC_REMAP<br/>
+<a href="#Output-406173571" onClick='toggleBox("Output-406173571", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-406173571" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-406173571">
+You are already mapped with NBFC<br/>
+</div>
+</td>
+<td></td>
+<td>84</td>
+<td>com.F.Xuriti.NBFC.TC_06_NBFC_REMAP@2de23121</td></tr>
+<tr>
+<td title='com.B.Xuriti.LogIn.Tc_02_Login_CheckError.loginWithAllfieldblank()'><b>loginWithAllfieldblank</b><br>Test class: com.B.Xuriti.LogIn.Tc_02_Login_CheckError<br/>
+<a href="#Output-121597447" onClick='toggleBox("Output-121597447", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-121597447" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-121597447">
+Error Message Found = Please provide a valid email address<br/>
+Error Message Found = Password must contain at least one capital letter, one small letter and one number and any special character like @$_# etc<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.B.Xuriti.LogIn.Tc_02_Login_CheckError@6f4a47c7</td></tr>
+<tr>
+<td title='com.C.Xuriti.AddCompany.TC_01_AddCompany.InValidGstNo()'><b>InValidGstNo</b><br>Test class: com.C.Xuriti.AddCompany.TC_01_AddCompany</td>
+<td></td>
+<td>25</td>
+<td>com.C.Xuriti.AddCompany.TC_01_AddCompany@ae13544</td></tr>
+<tr>
+<td title='com.B.Xuriti.LogIn.Tc_02_Login_CheckError.loginWithInvalidPassword()'><b>loginWithInvalidPassword</b><br>Test class: com.B.Xuriti.LogIn.Tc_02_Login_CheckError<br/>
+<a href="#Output-1494051958" onClick='toggleBox("Output-1494051958", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1494051958" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1494051958">
+Error Message Found = Password must contain at least one capital letter, one small letter and one number and any special character like @$_# etc<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.B.Xuriti.LogIn.Tc_02_Login_CheckError@6f4a47c7</td></tr>
+<tr>
+<td title='com.A.Xuriti.SignUp.Tc_02_SingUp_InvalidLastname.signUpInvalidLastName()'><b>signUpInvalidLastName</b><br>Test class: com.A.Xuriti.SignUp.Tc_02_SingUp_InvalidLastname<br/>
+<a href="#Output-700546109" onClick='toggleBox("Output-700546109", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-700546109" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-700546109">
+Error Message Found Please enter last name<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.A.Xuriti.SignUp.Tc_02_SingUp_InvalidLastname@20d525</td></tr>
+<tr>
+<td title='com.A.Xuriti.SignUp.Tc_01_SignUP_InvalidName.signUpInvalidName()'><b>signUpInvalidName</b><br>Test class: com.A.Xuriti.SignUp.Tc_01_SignUP_InvalidName<br/>
+<a href="#Output-1408073939" onClick='toggleBox("Output-1408073939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1408073939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1408073939">
+Error Message Found Please enter first name<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.A.Xuriti.SignUp.Tc_01_SignUP_InvalidName@7c9d8e2</td></tr>
+</table><p>
+</body>
+</html>

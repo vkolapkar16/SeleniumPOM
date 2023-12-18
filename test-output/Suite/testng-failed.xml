@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.xuriti.dev.TestClass.Tc_06_Buyer_ApproveCompany">
+        <methods>
+          <include name="adminsetup"/>
+          <include name="SellerCompanyApprove"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_06_Buyer_ApproveCompany -->
+      <class name="com.xuriti.dev.TestClass.Tc_16_Partpay_offline">
+        <methods>
+          <include name="offlinePartPay"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_16_Partpay_offline -->
+      <class name="com.xuriti.dev.TestClass.Tc_22_credit_note_invoice_upload">
+        <methods>
+          <include name="SellerInvoiceUpload_CN"/>
+          <include name="Startbrowser"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_22_credit_note_invoice_upload -->
+      <class name="com.xuriti.dev.TestClass.Tc_10_CreditlimitApprove">
+        <methods>
+          <include name="Creditlimitapprove"/>
+          <include name="adminsetup"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_10_CreditlimitApprove -->
+      <class name="com.xuriti.dev.TestClass.Tc_25_Credit_note_invoice_settled">
+        <methods>
+          <include name="SettledCN"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_25_Credit_note_invoice_settled -->
+      <class name="com.xuriti.dev.TestClass.Tc_27_Split_payment_invoice_confirm">
+        <methods>
+          <include name="Startbrowser"/>
+          <include name="invoiceConfirm_paynow"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_27_Split_payment_invoice_confirm -->
+      <class name="com.xuriti.dev.TestClass.Tc_23_Credit_note_invoice_confirm">
+        <methods>
+          <include name="CNInvoiceConfirm"/>
+          <include name="Startbrowser"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_23_Credit_note_invoice_confirm -->
+      <class name="com.xuriti.dev.TestClass.Tc_07_CreaditPlanAdd_Map">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="addCreditplan"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_07_CreaditPlanAdd_Map -->
+      <class name="com.xuriti.dev.TestClass.Tc_26_Invoice_Upload_spilt_Payment">
+        <methods>
+          <include name="SellerInvoiceUpload_CN"/>
+          <include name="Startbrowser"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_26_Invoice_Upload_spilt_Payment -->
+      <class name="com.xuriti.dev.TestClass.Tc_24_IN_invoice_confirm_for_CN_Settle">
+        <methods>
+          <include name="CNInvoiceConfirm"/>
+          <include name="Startbrowser"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_24_IN_invoice_confirm_for_CN_Settle -->
+      <class name="com.xuriti.dev.TestClass.TC_17_FullPay_Offline">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="offlinePartPay"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.TC_17_FullPay_Offline -->
+      <class name="com.xuriti.dev.TestClass.Tc_04_Seller_ApproveCompany">
+        <methods>
+          <include name="adminsetup"/>
+          <include name="CompanyApprove"/>
+        </methods>
+      </class> <!-- com.xuriti.dev.TestClass.Tc_04_Seller_ApproveCompany -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
